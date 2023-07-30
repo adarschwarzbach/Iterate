@@ -1,5 +1,5 @@
 # The Algorithms Club - Website
-<img width="800" alt="Screenshot 2023-07-30 at 1 20 00 PM" src="https://github.com/adarschwarzbach/Iterate/assets/96645075/4d420cd9-262b-48fd-af1f-60dd00d32981">
+<img width="200" alt="Screenshot 2023-07-30 at 1 20 00 PM" src="https://github.com/adarschwarzbach/Iterate/assets/96645075/4d420cd9-262b-48fd-af1f-60dd00d32981">
 
 
 ## Setup and Installation
