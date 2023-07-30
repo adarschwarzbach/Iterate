@@ -2,8 +2,6 @@
 <img width="542" alt="Screenshot 2023-07-30 at 1 20 00 PM" src="https://github.com/adarschwarzbach/Iterate/assets/96645075/4d420cd9-262b-48fd-af1f-60dd00d32981">
 
 
-Welcome to the official repository for The Algorithms Club's React Website. Our site is built with [React](https://reactjs.org/). 
-
 ## Setup and Installation
 
 ### Prerequisites
