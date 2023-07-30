@@ -1,0 +1,14 @@
+.matrix-style {
+    margin: 0;
+    padding: 0;
+}
+
+/* This will apply to an element with the class "bod" that is a child of the body element */
+body .bod {
+    background: black;
+}
+
+/* This will apply to an element with the class "canva" that is a child of the canvas element */
+canvas .canva {
+    display: block;
+}
