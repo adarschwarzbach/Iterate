@@ -16,7 +16,7 @@ Ensure you have the following prerequisites installed:
 - [Node.js](https://nodejs.org/) v14.0.0 or above
 - [Yarn](https://yarnpkg.com/) 
 
-After that, you can set up the project with these steps:
+After that, you can set up the project by running the following in your terminal:
 
 ```bash
 # Clone the repository
