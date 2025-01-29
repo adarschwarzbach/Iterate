@@ -51,10 +51,14 @@
     "jquery": "3.7.0",
     "typescript": "5.0.4"
   },
+  "homepage": "https://adarschwarzbach.github.io/Iterate",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "serve-build": "serve -s build",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css",

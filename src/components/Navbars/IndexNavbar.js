@@ -83,9 +83,9 @@ export default function IndexNavbar() {
             <span> Algorithms </span>
             Club
           </NavbarBrand>
-          <UncontrolledTooltip placement="bottom" target="navbar-brand">
+          {/* <UncontrolledTooltip placement="bottom" target="navbar-brand">
             Duke University
-          </UncontrolledTooltip>
+          </UncontrolledTooltip> */}
           <button
             aria-expanded={collapseOpen}
             className="navbar-toggler navbar-toggler"
@@ -107,7 +107,7 @@ export default function IndexNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                 TDTC
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
@@ -123,7 +123,7 @@ export default function IndexNavbar() {
           </div>
           <Nav navbar>
             <NavItem className="p-0">
-              <NavLink
+              {/* <NavLink
                 data-placement="bottom"
                 // Lol we'll make this the club linkedin page
                 href="https://www.linkedin.com/in/adarschwarzbach/"
@@ -133,9 +133,9 @@ export default function IndexNavbar() {
               >
                 <i className="fab fa-linkedin" />
                 <p className="d-lg-none d-xl-none">LinkedIn</p>
-              </NavLink>
+              </NavLink> */}
             </NavItem>
-            <UncontrolledDropdown nav>
+            {/* <UncontrolledDropdown nav>
               <DropdownToggle
                 caret
                 color="default"
@@ -165,25 +165,19 @@ export default function IndexNavbar() {
                   Profile Page
                 </DropdownItem>
               </DropdownMenu>
-            </UncontrolledDropdown>
+            </UncontrolledDropdown> */}
             <NavItem>
-              <Button
+              {/* <Button
                 className="nav-link d-none d-lg-block"
                 color="primary"
                 target="_blank"
                 // href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
               >
                 <i className="tim-icons icon-spaceship" /> This does nothing
-              </Button>
+              </Button> */}
             </NavItem>
             <NavItem>
-              <Button
-                className="nav-link d-none d-lg-block"
-                color="default"
-                onClick={scrollToDownload}
-              >
-                <i className="tim-icons icon-cloud-download-93" /> Anotha button
-              </Button>
+            About
             </NavItem>
           </Nav>
         </Collapse>
