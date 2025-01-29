@@ -89,7 +89,7 @@ const FullScreenForm = ({ onClose }) => {
         color: "white",
       }}
     >
-      <h1 style={{ marginBottom: "20px" }}>Apply to TDTC '25</h1>
+      <h1 style={{ marginBottom: "20px" }}>Apply to TDTC</h1>
       <input
         type="text"
         name="name"
@@ -160,21 +160,19 @@ const FullScreenForm = ({ onClose }) => {
         onDragOver={(e) => e.preventDefault()}
         style={{
           width: "300px",
-          height: "100px",
-          border: "2px dashed white",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
+          padding: "10px",
           marginBottom: "15px",
-          cursor: "pointer",
-          textAlign: "center",
+          backgroundColor: "transparent",
+          color: "white",
+          border: "1px solid white",
+          outline: "none",
         }}
         onClick={() => document.getElementById("fileInput").click()}
       >
         {formData.resume ? (
           <span>{formData.resume.name}</span>
         ) : (
-          <span>Drop PDF Resume Here or Click to Upload</span>
+          <span>Upload Resume</span>
         )}
       </div>
       <input

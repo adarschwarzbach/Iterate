@@ -36,6 +36,7 @@
     "react": "18.2.0",
     "react-chartjs-2": "2.11.2",
     "react-datetime": "3.2.0",
+    "react-device-detect": "^2.2.3",
     "react-dom": "18.2.0",
     "react-router-dom": "6.11.1",
     "react-scripts": "5.0.1",
@@ -86,5 +87,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

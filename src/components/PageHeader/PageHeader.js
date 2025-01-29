@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Container } from "reactstrap";
+import {isMobile} from 'react-device-detect';
+
 
 export default function PageHeader({onApplyClick}) {
   const canvasRef = useRef(null);
@@ -7,6 +9,8 @@ export default function PageHeader({onApplyClick}) {
   const [showApplyText, setShowApplyText] = useState(false);
 
   useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    
     const c = canvasRef.current;
     if (!c) return;
 
@@ -65,11 +69,11 @@ export default function PageHeader({onApplyClick}) {
   }, []);
 
   return (
-    <div className="page-header header-filter" style={{ placeItems: "center", position: "relative" }}>
+    <div className="page-header header-filter" style={{ placeItems: "center", position: "relative",  }}>
       <Container style={{ textAlign: "center", position: "absolute", top: "85%", left: "50%", transform: "translate(-50%, -50%)", color: "white" }}>
-        <h2 style={{ fontSize: "1.8rem", marginBottom: "0" }}>The</h2>
+        <h2 style={{ fontSize: isMobile ? "1rem" : "1.8rem", marginBottom: "0" }}>The</h2>
         <h1 style={{
-          fontSize: "3.5rem",
+          fontSize:  isMobile ? "2rem": "3.5rem",
           fontWeight: "bold",
           whiteSpace: "nowrap",
           display: "inline-block",

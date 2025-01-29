@@ -75,18 +75,18 @@ export default function IndexNavbar() {
       .scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
+    <Navbar className={"fixed-top " + "navbar-transparent"} color-on-scroll="100" expand="lg">
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            The
-            <span> Algorithms </span>
-            Club
+            Vol.
+            <span> I </span>
+            {/* Production */}
           </NavbarBrand>
           {/* <UncontrolledTooltip placement="bottom" target="navbar-brand">
             Duke University
           </UncontrolledTooltip> */}
-          <button
+          {/* <button
             aria-expanded={collapseOpen}
             className="navbar-toggler navbar-toggler"
             onClick={toggleCollapse}
@@ -94,9 +94,9 @@ export default function IndexNavbar() {
             <span className="navbar-toggler-bar bar1" />
             <span className="navbar-toggler-bar bar2" />
             <span className="navbar-toggler-bar bar3" />
-          </button>
+          </button> */}
         </div>
-        <Collapse
+        {/* <Collapse
           className={"justify-content-end " + collapseOut}
           navbar
           isOpen={collapseOpen}
@@ -123,7 +123,7 @@ export default function IndexNavbar() {
           </div>
           <Nav navbar>
             <NavItem className="p-0">
-              {/* <NavLink
+              <NavLink
                 data-placement="bottom"
                 // Lol we'll make this the club linkedin page
                 href="https://www.linkedin.com/in/adarschwarzbach/"
@@ -133,9 +133,9 @@ export default function IndexNavbar() {
               >
                 <i className="fab fa-linkedin" />
                 <p className="d-lg-none d-xl-none">LinkedIn</p>
-              </NavLink> */}
+              </NavLink>
             </NavItem>
-            {/* <UncontrolledDropdown nav>
+            <UncontrolledDropdown nav>
               <DropdownToggle
                 caret
                 color="default"
@@ -165,22 +165,22 @@ export default function IndexNavbar() {
                   Profile Page
                 </DropdownItem>
               </DropdownMenu>
-            </UncontrolledDropdown> */}
+            </UncontrolledDropdown>
             <NavItem>
-              {/* <Button
+              <Button
                 className="nav-link d-none d-lg-block"
                 color="primary"
                 target="_blank"
                 // href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
               >
                 <i className="tim-icons icon-spaceship" /> This does nothing
-              </Button> */}
+              </Button>
             </NavItem>
             <NavItem>
             About
             </NavItem>
           </Nav>
-        </Collapse>
+        </Collapse> */}
       </Container>
     </Navbar>
   );

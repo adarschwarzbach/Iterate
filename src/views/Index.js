@@ -19,6 +19,7 @@ export default function Index() {
   // }, []);
 
   return (
+    
     <div className="bg-black black min-h-screen flex flex-col">
       <IndexNavbar />
       <div >
@@ -28,7 +29,6 @@ export default function Index() {
           <PageHeader onApplyClick={() => setShowApplyForm(true)} />
         )}
       </div>
-      {/* <Footer /> */}
-    </div>
+      </div>
   );
 }
